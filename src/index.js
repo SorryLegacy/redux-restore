@@ -1,14 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-
-
-const App = () => {
-    return(
-        <div>
-            <h1>Hello world!</h1>
-        </div>
-    )
-}
+import App from "./components/app";
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
